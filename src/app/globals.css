@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: var(--font-dm-serif-display);
+  --font-body: var(--font-plus-jakarta-sans);
+
+  /* Warm off-white base: approachable, not clinical */
+  --color-bg: #faf8f5;
+  --color-surface: #f0ece6;
+  --color-border: #e5e0d8;
+
+  /* Text hierarchy with proper contrast */
+  --color-heading: #1a1a1a;
+  --color-body: #3d3d3d;
+  --color-muted: #7a7a7a;
+
+  /* Forest green: growth, trust, stability, money */
+  --color-green: #2d5a3d;
+  --color-green-light: #3d7a53;
+  --color-green-soft: #e8f0eb;
+
+  /* Terracotta: warm, inviting, premium action color */
+  --color-action: #c4704b;
+  --color-action-hover: #b5603d;
+  --color-action-soft: #fdf0eb;
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-bg text-body font-body antialiased;
+  }
+
+  ::selection {
+    background-color: rgba(45, 90, 61, 0.15);
+    color: #1a1a1a;
+  }
+
+  a,
+  button,
+  [role="button"] {
+    cursor: pointer;
+  }
+
+  *:focus-visible {
+    outline: 2px solid var(--color-green);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}

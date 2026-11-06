@@ -1,8 +1,17 @@
 # Furniture Catalog Rescue website
 
 Work in this existing Next.js repository. Read README.md and design/DESIGN.md,
-then only the affected source. Keep the page server-rendered; interactive review
-tabs are the small client boundary. No paid APIs, tracking or upload backend.
+then only the affected source. Keep page content server-rendered. Review tabs and
+the scoped GSAP motion wrapper are client boundaries. No paid APIs, tracking or
+upload backend.
+
+Latest user direction: editorial catalog, paper, oversized type, blue correction
+marks. Do not generate design-reference images. Inspect real sites, capture their
+layouts/interactions, and document extraction in design/REFERENCES.md. Keep
+third-party captures in workspace work/design, outside the public repository.
+The user explicitly requested reference-informed animation. Read design/MOTION.md
+and the installed official GSAP skills when editing motion. Keep scoped cleanup,
+native scrolling, responsive pinning and the reduced-motion control working.
 
 Public sample data is fictional. Use src/data/sample.json and the matching
 public/sample files; never invent counts or publish customer files. The review

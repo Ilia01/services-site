@@ -1,5 +1,11 @@
 # Image assets
 
+V2 uses only the existing hero photograph, presented as a native CSS silhouette.
+No design-reference images were generated for this revision. Real website captures
+and motion clips are documented in REFERENCES.md and retained outside this repo.
+The other two photos below are historical v1 assets and are no longer displayed.
+The social preview is a repo-native next/og graphic using the new type and palette.
+
 Generated with the built-in image generation tool, no paid API key. Furniture images are illustrative, not client work or products for sale. Original PNGs and the four section reference designs are retained in the parent workspace's work/design directory, outside public deliverables. Original paths below are relative to work/design, web paths relative to this repository.
 
 ## hero

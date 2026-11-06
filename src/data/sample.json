@@ -1,0 +1,130 @@
+{
+  "review": {
+    "synthetic": true,
+    "engine_version": "0.2.0.dev1",
+    "platform_verified": false,
+    "plan_hash": "390d0b8276f84ef2ae54c4bf34d3f8bcdb3056992052d5485b73cdb6a6b47344",
+    "counts": {
+      "baseline_image_record_count": 0,
+      "baseline_valid_variant_count": 5,
+      "baseline_variant_count": 5,
+      "candidate_variant_count": 4,
+      "explicitly_excluded": 0,
+      "invalid": 0,
+      "matched_changed": 2,
+      "matched_unchanged": 1,
+      "source_record_count": 3,
+      "unresolved": 0
+    },
+    "changes": [
+      {
+        "sku": "000120-OAK",
+        "before": "300.00",
+        "after": "315.00",
+        "delta_percent": "5.00",
+        "source_pointer": {
+          "column": "approved_retail_price",
+          "line_end": null,
+          "line_start": null,
+          "record": 1,
+          "sheet": "Supplier",
+          "sheet_row": 2,
+          "source": "supplier"
+        }
+      },
+      {
+        "sku": "000160-WHT",
+        "before": "360.00",
+        "after": "378.00",
+        "delta_percent": "5.00",
+        "source_pointer": {
+          "column": "approved_retail_price",
+          "line_end": null,
+          "line_start": null,
+          "record": 2,
+          "sheet": "Supplier",
+          "sheet_row": 3,
+          "source": "supplier"
+        }
+      }
+    ],
+    "family_context": [
+      {
+        "sku": "000120-OAK",
+        "option_names": [
+          "Size",
+          "Finish",
+          ""
+        ],
+        "option_values": [
+          "1200 mm",
+          "Oak",
+          ""
+        ],
+        "price": "300.00"
+      },
+      {
+        "sku": "000120-WHT",
+        "option_names": [
+          "Size",
+          "Finish",
+          ""
+        ],
+        "option_values": [
+          "1200 mm",
+          "White",
+          ""
+        ],
+        "price": "310.00"
+      },
+      {
+        "sku": "000160-OAK",
+        "option_names": [
+          "Size",
+          "Finish",
+          ""
+        ],
+        "option_values": [
+          "1600 mm",
+          "Oak",
+          ""
+        ],
+        "price": "350.00"
+      },
+      {
+        "sku": "000160-WHT",
+        "option_names": [
+          "Size",
+          "Finish",
+          ""
+        ],
+        "option_values": [
+          "1600 mm",
+          "White",
+          ""
+        ],
+        "price": "360.00"
+      }
+    ]
+  },
+  "exceptions": {
+    "synthetic": true,
+    "engine_version": "0.2.0.dev1",
+    "platform_verified": false,
+    "plan_hash": "5fa1619aab6b5d7993c012a297260f3a687e59275ec774405317a8e185780eda",
+    "counts": {
+      "baseline_image_record_count": 0,
+      "baseline_valid_variant_count": 5,
+      "baseline_variant_count": 5,
+      "candidate_variant_count": 0,
+      "explicitly_excluded": 0,
+      "invalid": 0,
+      "matched_changed": 0,
+      "matched_unchanged": 0,
+      "source_record_count": 3,
+      "unresolved": 3
+    },
+    "changes": [],
+    "family_context": []
+  }
+}

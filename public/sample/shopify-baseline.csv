@@ -1,0 +1,6 @@
+Handle,Title,Option1 Name,Option1 Value,Option2 Name,Option2 Value,Variant SKU,Variant Price,Status
+frame-desk,Frame Desk,Size,1200 mm,Finish,Oak,000120-OAK,300.00,active
+frame-desk,,Size,1200 mm,Finish,White,000120-WHT,310.00,active
+frame-desk,,Size,1600 mm,Finish,Oak,000160-OAK,350.00,active
+frame-desk,,Size,1600 mm,Finish,White,000160-WHT,360.00,active
+task-chair,Task Chair,Color,Grey,,,CHR-GRY,199.00,active
